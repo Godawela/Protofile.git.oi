@@ -1,7 +1,7 @@
 .headnav{
-    height: 30%;
+    height: auto;
     width: 100%;
-    background-color: rgb(20, 1, 1);
+    background-image: url("695130.jpg");
     background-size: cover;
     background-position: center;
     
@@ -25,6 +25,7 @@ nav{
     list-style-type: none;
     font-weight: bold;
     text-shadow: 2px 2px 8px orange;
+    font-size: 20px;
 }
 
 .list a{
@@ -33,7 +34,7 @@ nav{
 }
 
 .list:hover{
-    background-color: rgb(241, 29, 14);
+    background-color: rgb(231, 9, 46);
     border-radius: 30px;
 }
 
@@ -45,8 +46,8 @@ nav{
 }
 
 .btn{
-    background-color: rgb(241, 29, 14);
-    color: black;
+    background-color: rgb(231, 9, 46);
+    color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -61,25 +62,29 @@ nav{
 
 .con{
     text-shadow: 2px 2px 8px orange;
-    color:white;
+    color:rgb(247, 244, 245);
     padding: 30px;
-    background-color: black;
+   
 }
 
 .intro{
     text-shadow: 2px 2px 8px orange;
-    color:white;
+    color:rgb(247, 244, 245);
     text-align: right;
     padding: 30px;
-    background-color: black;
+    font-size: 25px;
     
 }
 
+.all{
+    background-image: url("Image.jpeg");
+}
+
 .about{
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-shadow: 2px 2px 8px orange;
-    color:white;
+    color:rgb(247, 244, 245);
     text-align: right;
     padding: 10px;
     margin: 30px;
@@ -98,12 +103,12 @@ nav{
 
 .icon a{
     text-decoration: none;
-    color: rgb(119, 31, 31);
+    color: rgb(5, 5, 5);
     
 }
 
 .icon:hover{
-    background-color: rgb(241, 29, 14);
+    background-color: rgb(231, 9, 46);
     border-radius: 30px;
 }
 
@@ -114,7 +119,7 @@ nav{
     color:white;
     padding: 30px;
     height: auto;
-    background-color: rgb(20, 1, 1);
+    background-image: url("695130.jpg");
     text-align: center;
 }
 
@@ -124,13 +129,13 @@ img{
     padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 20%;
-    opacity: 35%;
+    
     border: 5px solid transparent;
     
 }
 
 .btn1{
-    background-color: rgb(241, 29, 14);
+    background-color:rgb(231, 9, 46);
     color: black;
     text-decoration: none;
     border: 5px solid transparent;
@@ -148,7 +153,7 @@ img{
 }
 
 .btn2{
-    background-color: rgb(241, 29, 14);
+    background-color: rgb(231, 9, 46);
     color: black;
     text-decoration: none;
     border: 5px solid transparent;
@@ -166,7 +171,7 @@ img{
 }
 
 .btn3{
-    background-color: rgb(241, 29, 14);
+    background-color: rgb(231, 9, 46);
     color: black;
     text-decoration: none;
     border: 5px solid transparent;
@@ -181,4 +186,20 @@ img{
 
 .btn3:hover{
     background-color: rgb(235, 83, 23);
+}
+
+.form{
+    
+    margin:8px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form{
+    border: solid black;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
+    background-image: url("wp9314293.webp");
 }
